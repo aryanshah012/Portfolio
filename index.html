@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aryan Shah — AI Engineer specialising in Generative AI, RAG pipelines, and Agentic Systems. Data Science student at IIT Guwahati." />
+    <title>Aryan Shah | AI Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- DESKTOP NAV -->
+    <nav id="desktop-nav">
+      <div class="logo">Aryan Shah</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- MOBILE NAV -->
+    <nav id="hamburger-nav">
+      <div class="logo">Aryan Shah</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO / PROFILE SECTION -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-photo.png" alt="Aryan Shah profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Aryan Shah</h1>
+        <p class="section__text__p2">AI Engineer &nbsp;|&nbsp; GenAI &bull; RAG &bull; Agentic Systems</p>
+        <p class="section__text__tagline">Building intelligent applications with LLMs, RAG, AI agents and machine learning.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Aryan-Kumar-CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/aryan-shah012/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/aryanshah012'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-photo.png"
+            alt="Aryan Shah profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Interest icon"
+                class="icon"
+              />
+              <h3>Focus Area</h3>
+              <p>Generative AI<br />Agentic Systems</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. (Hons.) Data Science &amp; AI<br />IIT Guwahati</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm Aryan Shah, a Data Science &amp; Artificial Intelligence student at IIT Guwahati with a deep passion for building intelligent systems. My work spans Generative AI, Retrieval-Augmented Generation (RAG) pipelines, and agentic AI workflows — turning complex ideas into production-ready applications.
+              <br /><br />
+              I've built projects like <strong>ObsidianMind</strong>, a conversational RAG assistant that brings a personal knowledge vault to life, and <strong>RecoverAI</strong>, an AI revenue recovery agent that combines intelligent scoring with deterministic safety rules. I enjoy working at the intersection of LLMs, vector databases, and real-world problem solving.
+              <br /><br />
+              I'm actively looking for AI Engineer / GenAI internship opportunities where I can contribute to meaningful products and push the boundaries of what intelligent systems can do.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <!-- SKILLS / EXPERIENCE SECTION -->
+    <section id="experience">
+      <p class="section__text__p1">What I Work With</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers skills-three-col">
+
+          <!-- AI & Generative AI -->
+          <div class="details-container skill-group skill-ai">
+            <h2 class="experience-sub-title">🧠 AI &amp; Generative AI</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>Python</h3><p>Proficient</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>LLMs</h3><p>Proficient</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>RAG</h3><p>Proficient</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>LangChain</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>AI Agents</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>Embeddings</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>Vector DBs</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>Prompt Eng.</h3><p>Proficient</p></div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Machine Learning & Data -->
+          <div class="details-container skill-group skill-ml">
+            <h2 class="experience-sub-title">📊 ML &amp; Data</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>Scikit-learn</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>Pandas</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>NumPy</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>NLP</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>SQL</h3><p>Basic</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>Data Analysis</h3><p>Intermediate</p></div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Dev & Tools -->
+          <div class="details-container skill-group skill-dev">
+            <h2 class="experience-sub-title">⚙️ Dev &amp; Tools</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>FastAPI</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>Git / GitHub</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>Next.js</h3><p>Basic</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>REST APIs</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>Streamlit</h3><p>Intermediate</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
+                <div><h3>Vercel</h3><p>Basic</p></div>
+              </article>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My</p>
+      <h1 class="title">Featured Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers projects-grid">
+
+          <!-- 1. ObsidianMind -->
+          <div class="details-container color-container featured-badge">
+            <span class="badge badge-featured">⭐ Featured</span>
+            <div class="article-container">
+              <img
+                src="./assets/project-obsidianmind.jpg"
+                alt="ObsidianMind RAG Knowledge Assistant"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">🧠 ObsidianMind</h2>
+            <p class="project-desc">RAG Knowledge Assistant — converts an Obsidian vault into a conversational AI with semantic search, vector retrieval, and source citations.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">RAG</span><span class="tag">LangChain</span><span class="tag">LLM</span><span class="tag">Embeddings</span><span class="tag">Vector DB</span>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aryanshah012/ObsidianMind'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://obsidianmind.onrender.com'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <!-- 2. RecoverAI -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-recoverai.jpg"
+                alt="RecoverAI Revenue Recovery Agent"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">💳 RecoverAI</h2>
+            <p class="project-desc">Agentic revenue recovery platform — identifies failed payments, predicts recovery probability, and recommends optimal retry strategies with human-in-the-loop approval.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">AI Agents</span><span class="tag">ML</span><span class="tag">FastAPI</span><span class="tag">Next.js</span><span class="tag">FinTech</span>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='#'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://recoverai-hqfe.onrender.com'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. VeriSettle -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-verisettle.jpg"
+                alt="VeriSettle Autonomous Settlement Risk Agent"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">⚖️ VeriSettle</h2>
+            <p class="project-desc">Autonomous settlement risk agent — verifies counterparty data, scores settlement risk in real-time, flags high-risk trades, and routes decisions through a human-in-the-loop approval pipeline.</p>
+            <div class="project-tags">
+              <span class="tag">Agentic AI</span><span class="tag">LLMs</span><span class="tag">Risk Scoring</span><span class="tag">FastAPI</span><span class="tag">FinTech</span>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aryanshah012/VeriSettle-Autonomous-Verified-Settlement-Risk-Agent'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://verisettle-autonomous-verified.onrender.com'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <!-- 4. Movie Recommendation System -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-movierec.jpg"
+                alt="Movie Recommendation System"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">🎬 Movie Recommender</h2>
+            <p class="project-desc">ML-powered movie recommendation engine using collaborative filtering and content-based methods to suggest personalised films based on user preferences and watch history.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">ML</span><span class="tag">Scikit-learn</span><span class="tag">Pandas</span><span class="tag">Collaborative Filtering</span>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aryanshah012/Movie-Recommendation-System'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aryanshah012/Movie-Recommendation-System'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <!-- 5. Text Emotion Detector -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-emotion.jpg"
+                alt="Text Emotion Detector NLP"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">😊 Text Emotion Detector</h2>
+            <p class="project-desc">NLP application that analyses text and predicts the underlying emotion using ML-based text classification and preprocessing techniques.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">NLP</span><span class="tag">ML</span><span class="tag">Scikit-learn</span>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aryanshah012/Text-Emotion-Detector-'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://text-emotion-detector-iota.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <!-- 6. Spam Message Detector -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-spam.jpg"
+                alt="Spam Message Detector"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">📩 Spam Message Detector</h2>
+            <p class="project-desc">ML-powered SMS/email classifier that distinguishes spam from legitimate messages using NLP feature engineering and a trained classification model.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">NLP</span><span class="tag">ML</span><span class="tag">Classification</span>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='#'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='#'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- EARLIER PROJECTS -->
+      <div class="earlier-projects">
+        <p class="section__text__p1" style="margin-top: 3rem;">Earlier Work</p>
+        <h2 class="title earlier-title">Frontend Projects</h2>
+        <div class="earlier-grid">
+
+          <div class="details-container earlier-card">
+            <div class="article-container">
+              <img src="./assets/project-1.png" alt="Parallax Adventure" class="project-img earlier-img" />
+            </div>
+            <h2 class="experience-sub-title project-title earlier-project-title">Parallax Adventure</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aryanshah012/Parallax_Adventure'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://parallax-adventure-green.vercel.app/'">Live Demo</button>
+            </div>
+          </div>
+
+          <div class="details-container earlier-card">
+            <div class="article-container">
+              <img src="./assets/project-2.png" alt="Netflix Clone" class="project-img earlier-img" />
+            </div>
+            <h2 class="experience-sub-title project-title earlier-project-title">Netflix Clone</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aryanshah012/Netflix-clone'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://netflix-clone-git-main-aryan-shahs-projects.vercel.app/'">Live Demo</button>
+            </div>
+          </div>
+
+          <div class="details-container earlier-card">
+            <div class="article-container">
+              <img src="./assets/project-3.png" alt="My Gallery" class="project-img earlier-img" />
+            </div>
+            <h2 class="experience-sub-title project-title earlier-project-title">My Gallery</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aryanshah012/My-Gallery'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://my-gallery-one-olive.vercel.app//'">Live Demo</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:aryanshah1205@gmail.com">aryanshah1205@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/aryan-shah012/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Aryan Shah. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

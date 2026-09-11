@@ -1,0 +1,141 @@
+/* RESPONSIVE / MEDIA QUERIES */
+
+/* ---- TABLET (≤ 1400px) ---- */
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: auto;
+    padding: 4vh 2rem 2rem;
+  }
+
+  .section__pic-container {
+    height: 300px;
+    width: 300px;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .earlier-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  section {
+    margin: 0 5rem;
+  }
+}
+
+/* ---- SMALL TABLET (≤ 1200px) ---- */
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+  }
+
+  #profile {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 3rem;
+    gap: 2rem;
+  }
+
+  .section__pic-container {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  .about-containers {
+    flex-wrap: wrap;
+  }
+
+  .section-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .about-containers.skills-three-col {
+    flex-direction: column;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .earlier-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section {
+    margin: 0 3rem;
+  }
+
+  .arrow {
+    right: -1rem;
+  }
+}
+
+/* ---- MOBILE (≤ 768px) ---- */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1.2rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .earlier-grid {
+    grid-template-columns: 1fr;
+  }
+
+  section {
+    margin: 0 1.5rem;
+  }
+
+  .contact-info-upper-container {
+    flex-direction: column;
+  }
+
+  footer {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .earlier-projects {
+    padding: 1.25rem;
+  }
+}
+
+/* ---- SMALL MOBILE (≤ 480px) ---- */
+@media screen and (max-width: 480px) {
+  .section__pic-container {
+    height: 200px;
+    width: 200px;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .btn {
+    font-size: 0.82rem;
+    padding: 0.65rem 1rem;
+    width: 7rem;
+  }
+
+  .project-img {
+    height: 130px;
+  }
+}
